@@ -1,0 +1,122 @@
+.dice{
+    background-color: #e2e2e2;
+    height: 300px;
+    aspect-ratio: 1 / 1;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 2em;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.face{
+    box-sizing:border-box;
+    aspect-ratio: 1 / 1;
+    margin: 1em;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-areas: 
+        "b b b" 
+        "b b b" 
+        "b b b";
+    gap: 20px;
+}
+.face1{
+    box-sizing:border-box;
+    aspect-ratio: 1 / 1;
+    margin: 1em;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-areas: 
+        "b9 b8 b7" 
+        "b6 d1 b5" 
+        "b4 b3 b2";
+    gap: 20px;
+}
+.face2{
+    box-sizing:border-box;
+    aspect-ratio: 1 / 1;
+    margin: 1em;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-areas: 
+        "d1 b9 b8" 
+        "b7 b6 b5" 
+        "b4 b3 d2";
+    gap: 20px;
+}
+.face3{
+    box-sizing:border-box;
+    aspect-ratio: 1 / 1;
+    margin: 1em;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-areas: 
+        "d1 b9 b8" 
+        "b7 d2 b6" 
+        "b5 b4 d3";
+    gap: 20px;
+}
+.face4{
+    box-sizing:border-box;
+    aspect-ratio: 1 / 1;
+    margin: 1em;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-areas: 
+        "d1 b9 d2" 
+        "b8 b7 b6" 
+        "d3 b5 d4";
+    gap: 20px;
+}
+.face5{
+    box-sizing:border-box;
+    aspect-ratio: 1 / 1;
+    margin: 1em;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-areas: 
+        "d1 b9 d2" 
+        "b8 d3 b7" 
+        "d4 b6 d5";
+    gap: 20px;
+}
+.face6{
+    box-sizing:border-box;
+    aspect-ratio: 1 / 1;
+    margin: 1em;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-areas: 
+        "d1 b9 d2" 
+        "d3 b8 d4" 
+        "d5 b7 d6";
+    gap: 20px;
+}
+
+.dot{
+    background-color: black;
+    height: 40px;
+    aspect-ratio: 1 / 1;
+    margin: 10px;   
+    border-radius: 100%;
+}
+.blank{
+    height: 40px;
+    aspect-ratio: 1 / 1; 
+    margin: 10px;   
+}
